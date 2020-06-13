@@ -16,7 +16,8 @@ web.py contains the two endpoints:
 
 2. /predict -- given an item_id, returns the precomputed 'most similar' items.
 
-## Try it out!
+## Try it out! 
+
 
 First, make sure you have a local redis instance running. The engine expects to find redis at redis://localhost:6379, but you can set REDIS_URL env var if you have it running elsewhere.
 
